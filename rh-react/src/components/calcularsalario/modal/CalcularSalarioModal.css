@@ -1,0 +1,45 @@
+.popup-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1rem;
+  width: 28rem;
+  height: 22rem;
+}
+
+/* Estilização do overlay e do modal */
+.calcular-salario-popup-overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(2px);
+}
+
+.calcular-salario-popup-content {
+  padding: 0;
+  border: none;
+  background: transparent;
+  width: auto;
+  margin: auto;
+}
+
+/* Animação do modal */
+.calcular-salario-popup-enter {
+  opacity: 0;
+  transform: scale(0.9);
+}
+
+.calcular-salario-popup-enter-active {
+  opacity: 1;
+  transform: scale(1);
+  transition: opacity 300ms, transform 300ms;
+}
+
+.calcular-salario-popup-exit {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.calcular-salario-popup-exit-active {
+  opacity: 0;
+  transform: scale(0.9);
+  transition: opacity 300ms, transform 300ms;
+}

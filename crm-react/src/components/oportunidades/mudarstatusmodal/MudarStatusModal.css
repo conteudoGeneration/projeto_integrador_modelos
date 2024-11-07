@@ -1,0 +1,36 @@
+/* Estilização do overlay e do modal */
+.mudar-status-popup-overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(2px);
+  }
+  
+  .mudar-status-popup-content {
+    padding: 0;
+    border: none;
+    background: transparent;
+    width: auto;
+    margin: auto;
+  }
+  
+  /* Animação do modal */
+  .mudar-status-popup-enter {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  
+  .mudar-status-popup-enter-active {
+    opacity: 1;
+    transform: scale(1);
+    transition: opacity 300ms, transform 300ms;
+  }
+  
+  .mudar-status-popup-exit {
+    opacity: 1;
+    transform: scale(1);
+  }
+  
+  .mudar-status-popup-exit-active {
+    opacity: 0;
+    transform: scale(0.9);
+    transition: opacity 300ms, transform 300ms;
+  }
