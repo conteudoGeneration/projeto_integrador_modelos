@@ -116,8 +116,8 @@ Usuario --> Produto
   - Receber os parâmetros do tipo number **calorias e proteínas**
   - As calorias devem ser expressas em **quilocalorias (Kcal)**
   - As proteínas devem ser expressas em **gramas (g)**
-  - Os critérios para determinar se uma alimentos é saudável serão os seguintes:
-    - *Calorias <= 500*
+  - Os critérios para determinar se um alimento é saudável serão os seguintes:
+    - *Calorias <= 300*
     - *Proteínas >= 20*
   - O resultado final deve ser expresso em horas e minutos
 
